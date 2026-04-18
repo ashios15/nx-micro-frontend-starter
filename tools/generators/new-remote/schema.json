@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name for the new remote module",
+      "x-prompt": "What name would you like to use for the remote?"
+    },
+    "port": {
+      "type": "number",
+      "description": "Dev server port for this remote",
+      "default": 4203,
+      "x-prompt": "Which port should this remote use?"
+    }
+  },
+  "required": ["name"]
+}

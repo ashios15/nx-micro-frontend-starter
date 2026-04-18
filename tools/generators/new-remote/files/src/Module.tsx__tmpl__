@@ -1,0 +1,19 @@
+import React from 'react';
+
+export function <%= className %>Module() {
+  return (
+    <div className="max-w-2xl mx-auto py-8">
+      <div className="bg-white rounded-lg border p-8">
+        <h2 className="text-2xl font-bold text-gray-900 mb-4"><%= className %></h2>
+        <p className="text-gray-600">
+          This is the <code>remote-<%= name %></code> micro-frontend module.
+        </p>
+        <p className="mt-4 text-xs text-gray-400">
+          Remote Module: <code>remote-<%= name %></code> · Port <%= port %>
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default <%= className %>Module;

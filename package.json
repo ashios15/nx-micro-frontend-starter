@@ -1,0 +1,38 @@
+{
+  "name": "nx-micro-frontend-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-ready Nx monorepo template with Module Federation — shell + 2 independent remotes + shared UI library + custom generators.",
+  "scripts": {
+    "start": "nx serve shell",
+    "start:all": "nx run-many --target=serve --projects=shell,remote-auth,remote-dashboard --parallel=3",
+    "build": "nx run-many --target=build --all",
+    "test": "nx run-many --target=test --all",
+    "lint": "nx run-many --target=lint --all",
+    "graph": "nx graph",
+    "generate:remote": "nx g @nx-micro-frontend-starter/tools:new-remote"
+  },
+  "devDependencies": {
+    "@nx/react": "^20.0.0",
+    "@nx/webpack": "^20.0.0",
+    "@nx/jest": "^20.0.0",
+    "@nx/eslint": "^20.0.0",
+    "nx": "^20.0.0",
+    "typescript": "^5.7.0",
+    "@module-federation/enhanced": "^0.8.0",
+    "webpack": "^5.96.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.0.0"
+  },
+  "keywords": [
+    "nx",
+    "micro-frontend",
+    "module-federation",
+    "monorepo",
+    "react",
+    "starter-template"
+  ],
+  "author": "Ashish Joshi",
+  "license": "MIT"
+}
