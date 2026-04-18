@@ -1,6 +1,6 @@
 # nx-micro-frontend-starter
 
-[![CI](https://github.com/ashishjoshi/nx-micro-frontend-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/ashishjoshi/nx-micro-frontend-starter/actions)
+[![CI](https://github.com/ashios15/nx-micro-frontend-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/ashios15/nx-micro-frontend-starter/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 A **production-ready Nx monorepo template** with Module Federation — shell + independent remotes + shared UI library + custom code generators.
@@ -29,19 +29,19 @@ A **production-ready Nx monorepo template** with Module Federation — shell + i
 
 ## Features
 
-- 🏗️ **Nx Monorepo** — Intelligent build caching, affected commands, dependency graph
-- 🔌 **Module Federation** — Runtime module loading, independent deployments
-- 🧱 **Shared UI Library** — Consistent design system across all remotes
-- ⚡ **Custom Generators** — Scaffold new remotes in seconds with `nx g new-remote`
-- 🔒 **Shared dependencies** — React, React Router as singletons (no duplication)
-- 📊 **Dependency Graph** — Visualize with `nx graph`
-- 🚀 **CI/CD Ready** — GitHub Actions with Nx Cloud caching
+- **Nx Monorepo** — Intelligent build caching, affected commands, dependency graph
+- **Module Federation** — Runtime module loading, independent deployments
+- **Shared UI Library** — Consistent design system across all remotes
+- **Custom Generators** — Scaffold new remotes in seconds with `nx g new-remote`
+- **Shared dependencies** — React, React Router as singletons (no duplication)
+- **Dependency Graph** — Visualize with `nx graph`
+- **CI/CD Ready** — GitHub Actions with Nx Cloud caching
 
 ## Quick Start
 
 ```bash
 # Clone and install
-git clone https://github.com/ashishjoshi/nx-micro-frontend-starter.git
+git clone https://github.com/ashios15/nx-micro-frontend-starter.git
 cd nx-micro-frontend-starter
 npm install
 
@@ -119,4 +119,4 @@ nx run-many --target=build --all  # Build everything
 
 ## License
 
-MIT © [Ashish Joshi](https://github.com/ashishjoshi)
+MIT © [Ashish Joshi](https://github.com/ashios15)
